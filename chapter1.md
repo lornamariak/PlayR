@@ -1,8 +1,8 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
-attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+title       : Introduction to R
+description : Simple introduction to R concepts and syntax
+
+  
 
 ---
 ## A really bad movie
