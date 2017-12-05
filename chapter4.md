@@ -1,3 +1,3 @@
 ---
 title       : Functions in R
-description : to wrap up the course we 
+description : To wrap up the course we learn how to write reusable code in R

@@ -40,21 +40,11 @@ name <- "lorna"
 #Define 2nd variable here
 
 
-`@sct`
-```{r}
-# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
-
-
-
-
-
-```
-
 ---
 ## Comments in R
 
 ```yaml
-type: NormalExercise
+type:NormalExercise
 key: 74c7ef01f4
 lang: r
 xp: 100
@@ -78,11 +68,6 @@ Comment the code in the script with the following comments
 - Make sure that the comment comes after #
 
 
-`@pre_exercise_code`
-```{r}
-
-```
-
 `@sample_code`
 ```{r}
 # comment the line below
@@ -92,12 +77,3 @@ Comment the code in the script with the following comments
  age <- 23
 ```
 
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
