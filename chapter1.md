@@ -1,6 +1,6 @@
 ---
 title       : Introduction to R
-description : Simple introduction to R concepts and syntax
+description : Simple introduction to R concepts and syntax.Just Like anyother Language R has it's own variations.Throughout this chapter we shall explore the differences.
 
   
 
