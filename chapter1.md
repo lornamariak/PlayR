@@ -1,41 +1,38 @@
 ---
-title       : Introduction to R
-description : Simple introduction to R concepts and syntax.Just Like anyother Language R has it's own variations.Throughout this chapter we shall explore the differences.
+title       : Introduction to R Syntax.
+description : Simple introduction to R concepts and syntax.Just Like any other Language R has its own variations.Throughout this chapter we shall explore the differences.
 
   
 
 ---
-## A really bad movie
+## Inputs in R  
 
 ```yaml
-type: MultipleChoiceExercise
+type: NormalExercise
 lang: r
 xp: 50
 skills: 1
 key: 1a3cc1823e
 ```
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
+While inputing variables on R we use a special combination of symbols "<"and "-".
+The combination of the two <- gives the assignment symbol.
+Take an example here
+var <- 56
 
 `@instructions`
-- Adventure
-- Action
-- Animation
-- Comedy
+ Assign the following variables to your age(integer) and name (string)
 
 `@hint`
-Have a look at the plot. Which color does the point with the lowest rating have?
+Have a look at this assignment.
+name <- "lorna"
 
 `@pre_exercise_code`
 ```{r}
 # The pre exercise code runs code to initialize the user's workspace.
 # You can use it to load packages, initialize datasets and draw a plot in the viewer
 
-movies <- read.csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
 
-library(ggplot2)
-
-ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 ```
 
 `@sct`
