@@ -1,11 +1,11 @@
 ---
-title       : Introduction to R Syntax.
+title       : The R Syntax.
 description : Simple introduction to R concepts and syntax.Just Like any other Language R has its own variations.Throughout this chapter we shall explore the differences.
 
   
 
 ---
-## Assignment in R  
+##  Variable Assignment in R  
 
 ```yaml
 type: NormalExercise
