@@ -46,9 +46,9 @@ name <- "lorna"
 ```yaml
 type:NormalExercise
 key: 74c7ef01f4
-lang: r
-xp: 100
-skills: 1
+lang:r
+xp: 50
+skills:1
 ```
 More about R syntax takes us to commenting code.
 Unlike other languages R doesnt support multi line comments.
@@ -67,6 +67,11 @@ Comment the code in the script with the following comments
 - Use # or ##
 - Make sure that the comment comes after #
 
+
+`@pre_exercise_code`
+```{r}
+
+```
 
 `@sample_code`
 ```{r}
