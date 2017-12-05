@@ -18,10 +18,11 @@ key: 1a3cc1823e
 While inputing variables on R we use a special combination of symbols "<"and "-".
 The combination of the two <- gives the assignment symbol.
 Take an example here
-var <- 56
+ var <- 56
 
 `@instructions`
- Assign the following variables to your age(integer) and name (string)
+ Assign the following variables 20 and Sean 
+ to your age(integer) and name (string)
 
 `@hint`
 Have a look at this assignment.
@@ -29,19 +30,27 @@ name <- "lorna"
 
 `@pre_exercise_code`
 ```{r}
-# The pre exercise code runs code to initialize the user's workspace.
-# You can use it to load packages, initialize datasets and draw a plot in the viewer
-
+#not required
 
 ```
+`@samplecode`
+```{r}
+#Define 1st variable here
+
+#Define 2nd variable here
+
 
 `@sct`
 ```{r}
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-msg_bad <- "That is not correct!"
-msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_object ("name")
+test_object("age ")
+success_msg =("great job")
+incorrect-msg =("try using name and age as variable names")
+
+
+
 ```
 
 ---
